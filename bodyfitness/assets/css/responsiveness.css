@@ -1,0 +1,400 @@
+/* ================================================
+   BODY FITNESS - RESPONSIVE STYLES
+   Media queries for all screen sizes
+   ================================================ */
+
+/* ==================== TABLET (768px and below) ==================== */
+@media (max-width: 768px) {
+    
+    /* Login/Signup Box */
+    .login-box,
+    .signup-box,
+    .forgot-password-box {
+        padding: 40px 35px 45px;
+        max-width: 95%;
+    }
+    
+    /* Titles */
+    .login-title,
+    .signup-title,
+    .forgot-password-title {
+        font-size: 36px;
+    }
+
+    /* Underline */
+    .underline {
+        width: 150px;
+    }
+
+    /* Input Icons */
+    .input-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Input Fields */
+    .input-group input {
+        font-size: 14px;
+        padding: 13px 42px 13px 10px;
+    }
+
+    /* Links */
+    .links-container {
+        margin: 30px 0 35px;
+    }
+
+    .link {
+        font-size: 13px;
+    }
+
+    /* Buttons */
+    .login-btn,
+    .signup-btn,
+    .reset-btn {
+        font-size: 16px;
+        padding: 14px;
+    }
+
+    /* Home Page */
+    .header-content {
+        padding: 15px 20px;
+    }
+
+    .site-title {
+        font-size: 22px;
+    }
+
+    .welcome-section {
+        padding: 35px 25px;
+    }
+
+    .welcome-title {
+        font-size: 28px;
+    }
+
+    .welcome-text {
+        font-size: 16px;
+    }
+
+    .user-info-card {
+        padding: 30px 20px;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ==================== MOBILE (480px and below) ==================== */
+@media (max-width: 480px) {
+    
+    /* Login/Signup Box */
+    .login-box,
+    .signup-box,
+    .forgot-password-box {
+        padding: 35px 28px 40px;
+        border-radius: 15px;
+    }
+
+    /* Titles */
+    .login-title,
+    .signup-title,
+    .forgot-password-title {
+        font-size: 32px;
+        letter-spacing: 1px;
+    }
+
+    /* Underline */
+    .underline {
+        width: 130px;
+        height: 2px;
+    }
+
+    /* Input Fields */
+    .input-group {
+        margin-bottom: 25px;
+    }
+
+    .input-group input {
+        font-size: 13.5px;
+        padding: 12px 40px 12px 8px;
+    }
+
+    .input-group input::placeholder {
+        font-size: 13.5px;
+    }
+
+    /* Input Icons */
+    .input-icon {
+        width: 19px;
+        height: 19px;
+        right: 10px;
+    }
+
+    /* Links Container */
+    .links-container {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        margin: 28px 0 32px;
+    }
+
+    .link {
+        font-size: 12.5px;
+    }
+
+    /* Buttons */
+    .login-btn,
+    .signup-btn,
+    .reset-btn {
+        font-size: 15px;
+        padding: 13px;
+        border-radius: 40px;
+    }
+
+    /* Error/Success Messages */
+    .error-message,
+    .success-message {
+        font-size: 13px;
+    }
+
+    /* Home Page */
+    .header-content {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .site-title {
+        font-size: 20px;
+    }
+
+    .logout-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .welcome-section {
+        padding: 30px 20px;
+    }
+
+    .welcome-icon {
+        font-size: 48px;
+    }
+
+    .welcome-title {
+        font-size: 24px;
+    }
+
+    .welcome-text {
+        font-size: 15px;
+    }
+
+    .user-info-card {
+        padding: 25px 15px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .info-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .stat-card {
+        padding: 25px 20px;
+    }
+
+    .stat-icon {
+        font-size: 40px;
+    }
+
+    .stat-value {
+        font-size: 30px;
+    }
+}
+
+/* ==================== SMALL MOBILE (360px and below) ==================== */
+@media (max-width: 360px) {
+    
+    /* Login/Signup Box */
+    .login-box,
+    .signup-box,
+    .forgot-password-box {
+        padding: 30px 22px 35px;
+    }
+
+    /* Titles */
+    .login-title,
+    .signup-title,
+    .forgot-password-title {
+        font-size: 28px;
+    }
+
+    /* Underline */
+    .underline {
+        width: 110px;
+    }
+
+    /* Input Fields */
+    .input-group input {
+        font-size: 13px;
+        padding: 11px 38px 11px 8px;
+    }
+
+    /* Buttons */
+    .login-btn,
+    .signup-btn,
+    .reset-btn {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .welcome-title {
+        font-size: 22px;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+}
+
+/* ==================== LARGE DESKTOP (1200px and above) ==================== */
+@media (min-width: 1200px) {
+    
+    /* Login/Signup Box */
+    .login-box,
+    .forgot-password-box {
+        max-width: 500px;
+        padding: 50px 60px 60px;
+    }
+
+    .signup-box {
+        max-width: 550px;
+        padding: 45px 55px 55px;
+    }
+
+    /* Titles */
+    .login-title,
+    .forgot-password-title {
+        font-size: 44px;
+    }
+
+    .signup-title {
+        font-size: 42px;
+    }
+
+    /* Underline */
+    .underline {
+        width: 190px;
+        height: 3px;
+    }
+
+    /* Input Fields */
+    .input-group input {
+        font-size: 15px;
+        padding: 15px 48px 15px 14px;
+    }
+
+    /* Input Icons */
+    .input-icon {
+        width: 23px;
+        height: 23px;
+    }
+
+    /* Buttons */
+    .login-btn,
+    .signup-btn,
+    .reset-btn {
+        font-size: 18px;
+        padding: 16px;
+    }
+
+    /* Home Page */
+    .stats-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* ==================== LANDSCAPE ORIENTATION ==================== */
+@media (max-height: 600px) and (orientation: landscape) {
+    
+    /* Adjust for landscape mobile */
+    .login-page,
+    .signup-page,
+    .forgot-password-page {
+        height: auto;
+        min-height: 100vh;
+        padding: 30px 0;
+    }
+
+    .login-box,
+    .signup-box,
+    .forgot-password-box {
+        padding: 30px 40px 35px;
+    }
+
+    .login-title,
+    .signup-title,
+    .forgot-password-title {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .underline {
+        margin-bottom: 25px;
+    }
+
+    .input-group {
+        margin-bottom: 20px;
+    }
+
+    .links-container {
+        margin: 20px 0 25px;
+    }
+
+    .login-btn,
+    .signup-btn,
+    .reset-btn {
+        padding: 12px;
+    }
+}
+
+/* ==================== PRINT STYLES ==================== */
+@media print {
+    .login-page::before,
+    .signup-page::before,
+    .forgot-password-page::before {
+        display: none;
+    }
+
+    .login-box,
+    .signup-box,
+    .forgot-password-box {
+        box-shadow: none;
+        background: #fff;
+        color: #000;
+    }
+
+    .login-title,
+    .signup-title,
+    .forgot-password-title,
+    .input-group input,
+    .link {
+        color: #000;
+    }
+
+    .login-btn,
+    .signup-btn,
+    .reset-btn,
+    .logout-btn {
+        display: none;
+    }
+}

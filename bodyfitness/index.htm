@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Body Fitness - Your journey to a healthier lifestyle starts here">
+    <meta name="keywords" content="fitness, gym, workout, health, body fitness">
+    <meta name="author" content="Body Fitness">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/icons/favicon.ico">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    
+    <title>Login - Body Fitness</title>
+</head>
+<body class="login-page">
+    
+    <!-- Login Container -->
+    <div class="login-container">
+        <div class="login-box">
+            
+            <!-- Login Header -->
+            <div class="login-header">
+                <h1 class="login-title">login</h1>
+                <div class="underline"></div>
+            </div>
+            
+            <!-- Login Form -->
+            <form id="loginForm" class="login-form" novalidate>
+                
+                <!-- Username/Email Input -->
+                <div class="input-group">
+                    <input 
+                        type="text" 
+                        id="username" 
+                        name="username" 
+                        placeholder="username/Email address" 
+                        required
+                        autocomplete="username"
+                        aria-label="Username or Email"
+                    >
+                    <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                </div>
+
+                <!-- Password Input -->
+                <div class="input-group">
+                    <input 
+                        type="password" 
+                        id="password" 
+                        name="password" 
+                        placeholder="password" 
+                        required
+                        autocomplete="current-password"
+                        aria-label="Password"
+                    >
+                    <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                        <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                    </svg>
+                </div>
+
+                <!-- Error Message Display -->
+                <div class="error-message" id="errorMessage" role="alert"></div>
+
+                <!-- Links Container -->
+                <div class="links-container">
+                    <a href="signup.html" class="link">create an account</a>
+                    <a href="forgot-password.html" class="link">Forgot password</a>
+                </div>
+
+                <!-- Login Button -->
+                <button type="submit" class="login-btn">Login</button>
+                
+            </form>
+            
+        </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/validation.js"></script>
+    <script src="assets/js/login.js"></script>
+    
+</body>
+</html>
